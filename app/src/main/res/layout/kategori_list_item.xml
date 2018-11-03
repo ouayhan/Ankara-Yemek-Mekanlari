@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginTop="4dp"
+    android:elevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:id="@+id/kategori_id">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?android:selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/kategori_Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fish_resim"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/kategori_Mekan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="22dp"
+                android:layout_weight="0.45"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/purple_brown"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:text="Kebap ve Et Mekanları" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3">
+
+                <TextView
+                    android:id="@+id/toplam_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="0.4"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#525257"
+                    android:textSize="12sp"
+                    android:text="@string/toplam" />
+
+                <TextView
+                    android:id="@+id/mekan_Quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="0.2"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#833135"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:text="0"/>
+
+                <TextView
+                    android:id="@+id/mekan_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:layout_weight="0.4"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#525257"
+                    android:textSize="12sp"
+                    android:text="@string/mekan" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/kategori_Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:padding="2dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

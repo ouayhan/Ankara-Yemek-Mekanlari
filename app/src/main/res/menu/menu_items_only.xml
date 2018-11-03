@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/favoriler"
+
+        android:icon="@drawable/drawer_favorites_icon"
+        android:title="@string/favorilerim"
+        />
+
+    <item
+        android:id="@+id/mekanlar"
+
+        android:icon="@drawable/drawer_map_icon"
+        android:title="@string/yak_n_mekanlar"
+        />
+
+    <item
+        android:id="@+id/puan_ver"
+
+        android:icon="@drawable/drawer_puan_icon"
+        android:title="@string/puan_ver"
+        />
+
+    <item
+        android:id="@+id/mekan_istek"
+
+        android:icon="@drawable/drawer_envelop"
+        android:title="@string/mekan_stekleri"
+        />
+
+
+</menu>

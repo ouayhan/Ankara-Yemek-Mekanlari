@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c20a43</color>
+    <color name="colorPrimaryDark">#9b0836</color>
+    <color name="colorAccent">#8b43e2</color>
+    <color name="favori_toolbar">#649042</color>
+    <color name="color_favori_bar">#7db552</color>
+    <color name="favori_arka">#dddcdf</color>
+
+    <color name="overflowMenuBg">#e1dae9</color>
+    <color name="SearchViewBg">#ffffff</color>
+    <color name="grey_800">#000000</color>
+    <color name="purple_brown">#211d1e</color>
+</resources>

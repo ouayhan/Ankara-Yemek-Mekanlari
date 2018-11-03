@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">"Ankara Yemek Mekanları"</string>
+    <string name="favorilere_git">Favorilere Git</string>
+    <string name="title_activity_restaurant_pick_map">Map</string>
+
+    <string name="rate_dialog_title">Uygulamaya Puan Verin</string>
+    <string name="rate_dialog_message">Uygulamayı beğendiyseniz lütfen puan verin</string>
+    <string name="rate_dialog_ok">Şimdi Puan Verin</string>
+    <string name="rate_dialog_cancel">Daha Sonra Hatırlat</string>
+    <string name="rate_dialog_no">Hayır, Teşekkürler</string>
+    <string name="mekan">Mekan</string>
+    <string name="toplam">Toplam</string>
+    <string name="mekan_ara">Mekan Ara</string>
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="mekan_stekleri">Mekan İstekleri</string>
+    <string name="puan_ver">Puan Ver</string>
+    <string name="yak_n_mekanlar">Yakın Mekanlar</string>
+    <string name="favorilerim">Favorilerim</string>
+    <string name="exit">ÇIKIŞ</string>
+    <string name="temporaryText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="adres">Altay Mahallesi 1408. Cadde No:34 Etimesgut - ANKARA</string>
+</resources>
